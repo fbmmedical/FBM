@@ -1,0 +1,373 @@
+.color-sty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #213555 !important;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.color-sty img {
+  max-height: 16px;
+  max-width: 32px;
+}
+.home {
+  position: relative;
+}
+
+.icon-sty {
+  width: 90px;
+  height: 90px;
+  filter: brightness(0.2);
+}
+.mask {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.747);
+  top: 0;
+  left: 0;
+}
+
+.Home-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  padding: 15px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10%;
+}
+.Home-title p {
+  line-height: 50px;
+  font-size: 25px;
+  font-style: italic;
+  letter-spacing: 4px;
+  color: #cccac8;
+}
+.Home-title .text::after {
+  content: "|";
+  color: #213555;
+  font-size: 16px;
+  font-weight: 700;
+}
+.Home-title h2 {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-style: italic;
+  letter-spacing: 5px;
+  color: #f5efe7;
+  text-shadow: 2px 2px 1px #c2bcbc;
+}
+.Home-title span {
+  color: #213555;
+  text-shadow: 2px 2px 1px #fff;
+}
+.Home-title a {
+  font-size: 25px !important;
+  font-weight: 700;
+  letter-spacing: 5px;
+  background-color: #00638a;
+}
+/* about us */
+.title-aboutUs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.title-aboutUs h2 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #00638a;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+}
+.title-aboutUs p {
+  color: #213555bb;
+  text-align: center;
+  line-height: 30px;
+}
+.card-sty svg {
+  width: 500px;
+  color: #213555;
+}
+.card-img {
+  width: fit-content;
+  margin: auto;
+  font-size: 75px;
+  color: #00638a;
+}
+.card-body-sty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-body-sty .card-title {
+  text-align: center;
+}
+.card-body-sty .card-text {
+  text-align: center;
+  color: #213555bb;
+}
+.card-body-sty .btn {
+  border: #00638a 2px solid;
+  color: #00638a;
+  font-weight: 500;
+  width: 50%;
+  transition: 0.5s linear;
+}
+.card-body-sty .btn:hover {
+  background-color: #00638a;
+  color: #fff;
+  border-color: #fff;
+}
+.contentUs {
+  background-image: url(../images/Damascus-Syria.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  position: relative;
+}
+.mask-contentUs {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #021821b0;
+  filter: contrast(1);
+  opacity: 0.6;
+}
+.cont-content {
+  position: relative;
+  z-index: 3;
+}
+.content-title {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.content-title h2 {
+  font-size: 50px;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px #061c36, 2px 2px 6px #ffffff3d;
+}
+.content-title p {
+  /* width: 50%; */
+  color: #cccac8;
+}
+.card-content {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
+  margin-bottom: 25px;
+}
+.card-content .icon-content {
+  background-color: #fff;
+  align-self: center;
+  font-size: 32px;
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #213555;
+  font-weight: 500;
+}
+.card-body-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #fff;
+}
+.card-body-content h3 {
+  letter-spacing: 3px;
+}
+.card-body-content p {
+  color: #cccac8;
+  letter-spacing: 2px;
+}
+.card-map iframe {
+  width: 600px;
+  height: 500px;
+}
+.product .card img {
+  max-height: 250px;
+}
+.product .card a {
+  border-color: #00638a;
+  background-color: #00638a;
+}
+.price {
+  position: absolute;
+  color: #fff;
+  width: fit-content;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card-Product .card-text {
+  height: 50px;
+  overflow: auto;
+}
+.btn-sty {
+  background-color: #00638a;
+  color: #c2bcbc;
+}
+.btn-sty:hover {
+  background-color: #00638a;
+  color: #fff;
+}
+@media (max-width: 1000px) {
+  .card-map iframe {
+    width: 550px;
+    height: 500px;
+  }
+}
+@media (max-width: 760px) {
+  .Home-title {
+    width: 90%;
+  }
+  .Home-title p {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .Home-title h2 {
+    font-size: 30px;
+  }
+  .Home-title a {
+    font-size: 16px !important;
+    font-weight: 300;
+    letter-spacing: 3px;
+  }
+  .card-map iframe {
+    width: 500px !important;
+    height: 500px;
+  }
+}
+@media (max-width: 650px) {
+  .Home-title {
+    width: 100%;
+  }
+  .icon-sty {
+    width: 50px;
+    height: 50px;
+    filter: brightness(0.1);
+  }
+  .Home-title p {
+    line-height: 25px;
+    font-size: 16px;
+  }
+  .Home-title h1 {
+    font-size: 25px;
+  }
+  .Home-title a {
+    font-size: 16px !important;
+    font-weight: 300;
+    letter-spacing: 3px;
+  }
+  .card-map iframe {
+    width: 400px !important;
+    height: 400px;
+  }
+}
+@media (max-width: 420px) {
+  .Home-title h1 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 2px;
+  }
+  .Home-title p {
+    line-height: 20px;
+    font-size: 12px;
+  }
+  .Home-title a {
+    font-size: 12px !important;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+  .card-map iframe {
+    width: 300px !important;
+    /* height: 300px !important; */
+  }
+}
+@media (max-width: 350px) {
+  .card-map iframe {
+    width: 250px !important;
+    height: 150px !important;
+  }
+}
+.cart {
+  position: fixed;
+  z-index: 1500;
+  background-color: transparent;
+  border: none;
+}
+.cart:hover {
+  background-color: transparent;
+  border: none;
+}
+.cart button {
+  color: #fff;
+  background-color: #00638a !important;
+  border-radius: 20%;
+  padding: 10px 13px;
+}
+.cart:hover button {
+  color: #f5efe7;
+}
+footer {
+  margin-top: 40px;
+  background-color: #00638a;
+  color: #fff;
+}
+footer .container .box-cont {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px 15px;
+  padding-left: 40px;
+}
+.box-cont .box {
+  padding: 10px;
+}
+.box h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 200;
+}
+.box li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+.box li a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 200;
+}
+footer .title {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+  border-top: 0.1rem solid rgb(0 0 0 / 10%);
+  padding-top: 60px;
+}
+.title h2 {
+  font-weight: 200;
+}
