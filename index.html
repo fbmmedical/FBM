@@ -12,116 +12,110 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+  <div class="loader"></div>
+  
+  
+  <div class="app" >
     <!-- Header -->
     <nav class="navbar navbar-sty navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand color-sty" href="#"
-          ><img src="./images/FBM.png" alt="" style="margin: 0 10px 0 0" />
-          medical</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-lg-0">
-            <li class="nav-item">
-              <a
-                class="nav-link color-sty"
-                aria-current="page"
-                href="/"
-                id="link-router-Home"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link color-sty"
-                aria-current="page"
-                href="#AboutUs"
-                id="link-router-About"
-                >About us</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="#product"
-                class="nav-link color-sty"
-                id="link-router-product"
-                type="button"
-                >product</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link color-sty"
-                aria-current="page"
-                href="#content"
-                id="link-router-contact"
-                >contact us</a
-              >
-            </li>
-          </ul>
-        </div>
+    <div class="container-fluid">
+      <a class="navbar-brand color-sty" href="#"
+        ><img src="./images/FBM.png" alt="" style="margin: 0 10px 0 0" />
+        medical</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-lg-0">
+          <li class="nav-item">
+            <a
+              class="nav-link color-sty"
+              aria-current="page"
+              href="/"
+              id="link-router-Home"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link color-sty"
+              aria-current="page"
+              href="#AboutUs"
+              id="link-router-About"
+              >About us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#product"
+              class="nav-link color-sty"
+              id="link-router-product"
+              type="button"
+              >product</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link color-sty"
+              aria-current="page"
+              href="#content"
+              id="link-router-contact"
+              >contact us</a
+            >
+          </li>
+        </ul>
       </div>
+    </div>
     </nav>
-
+  
     <div id="App">
-      <!-- end Header -->
-      <!-- Home  -->
-      <div class="home">
-        <div
-          id="carouselExampleControls"
-          class="carousel slide Home-sty"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="./images/home-1.jpeg"
-                class="d-block w-100"
-                style="height: 95vh"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./images/home-2.jpg"
-                class="d-block w-100"
-                style="height: 95vh"
-                alt="..."
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./images/home-3.png"
-                class="d-block w-100"
-                style="height: 95vh"
-                alt="..."
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./images/home-4.png"
-                class="d-block w-100"
-                style="height: 95vh"
-                alt="..."
-                alt="..."
-              />
-            </div>
+    <!-- end Header -->
+    <!-- Home  -->
+    <div class="home">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide Home-sty"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./images/home-1.jpeg"
+              class="d-block w-100"
+              style="height: 95vh"
+              alt="..."
+            />
           </div>
           <div class="carousel-item">
             <img
-              src="./images/home-5.jpg"
+              src="./images/home-2.jpg"
+              class="d-block w-100"
+              style="height: 95vh"
+              alt="..."
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/home-3.png"
+              class="d-block w-100"
+              style="height: 95vh"
+              alt="..."
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/home-4.png"
               class="d-block w-100"
               style="height: 95vh"
               alt="..."
@@ -129,225 +123,243 @@
             />
           </div>
         </div>
-        <div class="mask"></div>
-        <div class="Home-title">
-          <h2>
-            <img src="./images/FBM.png" alt="" width="200" />
-          </h2>
-          <p class="text" id="title-text"></p>
-          <a class="btn text-light w-50" style="background-color: #00638a"
-            >product</a
-          >
+        <div class="carousel-item">
+          <img
+            src="./images/home-5.jpg"
+            class="d-block w-100"
+            style="height: 95vh"
+            alt="..."
+            alt="..."
+          />
         </div>
       </div>
-      <!-- End Home -->
-      <!-- about us -->
-      <div class="aboutUs" style="margin: 50px 0; padding: 50px 0" id="AboutUs">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="title-aboutUs">
-                <h2>About us</h2>
-                <p>
-                  At "Finesse Beam Medical", we strive to provide the latest
-                  innovations in cosmetic laser technology. Our products are
-                  distinguished by their efficiency and safety, making them the
-                  ideal choice for anyone looking to enhance their appearance.
-                  We focus on meeting our clients' individual needs while
-                  offering support and guidance to ensure outstanding results.
+      <div class="mask"></div>
+      <div class="Home-title">
+        <h2>
+          <img src="./images/FBM.png" alt="" width="200" />
+        </h2>
+        <p class="text" id="title-text"></p>
+        <a class="btn text-light w-50" style="background-color: #00638a"
+          >product</a
+        >
+      </div>
+    </div>
+    <!-- End Home -->
+    <!-- about us -->
+    <div class="aboutUs" style="margin: 50px 0; padding: 50px 0" id="AboutUs">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title-aboutUs">
+              <h2>About us</h2>
+              <p>
+                At "Finesse Beam Medical", we strive to provide the latest
+                innovations in cosmetic laser technology. Our products are
+                distinguished by their efficiency and safety, making them the
+                ideal choice for anyone looking to enhance their appearance.
+                We focus on meeting our clients' individual needs while
+                offering support and guidance to ensure outstanding results.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card card-sty"
+              style="max-width: 23rem; margin: 10px auto"
+            >
+              <div class="card-img">
+                <i class="bi bi-chat-dots-fill"></i>
+              </div>
+              <div class="card-body card-body-sty">
+                <h3 class="card-title">Exceptional Customer Service</h3>
+                <p class="card-text">
+                  Our customer support team is available 24/7 to address any
+                  questions or issues clients may encounter
                 </p>
               </div>
             </div>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-12 col-md-6 col-lg-4">
-              <div
-                class="card card-sty"
-                style="max-width: 23rem; margin: 10px auto"
-              >
-                <div class="card-img">
-                  <i class="bi bi-chat-dots-fill"></i>
-                </div>
-                <div class="card-body card-body-sty">
-                  <h3 class="card-title">Exceptional Customer Service</h3>
-                  <p class="card-text">
-                    Our customer support team is available 24/7 to address any
-                    questions or issues clients may encounter
-                  </p>
-                </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card card-sty"
+              style="max-width: 23rem; margin: 10px auto"
+            >
+              <div class="card-img">
+                <i class="bi bi-gem"></i>
               </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div
-                class="card card-sty"
-                style="max-width: 23rem; margin: 10px auto"
-              >
-                <div class="card-img">
-                  <i class="bi bi-gem"></i>
-                </div>
-                <div class="card-body card-body-sty">
-                  <h3 class="card-title">Quality Assurance</h3>
-                  <p class="card-text">
-                    We guarantee the quality of our products through rigorous
-                    testing before they hit the market, reflecting our
-                    commitment to high standards.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div
-                class="card card-sty"
-                style="max-width: 23rem; margin: 10px auto"
-              >
-                <div class="card-img">
-                  <i class="bi bi-award"></i>
-                </div>
-                <div class="card-body card-body-sty">
-                  <h3 class="card-title">Customized Consultations</h3>
-                  <p class="card-text">
-                    We offer individual consultations for each client to
-                    understand their specific needs and provide tailored
-                    solutions, enhancing the overall customer experience
-                  </p>
-                </div>
+              <div class="card-body card-body-sty">
+                <h3 class="card-title">Quality Assurance</h3>
+                <p class="card-text">
+                  We guarantee the quality of our products through rigorous
+                  testing before they hit the market, reflecting our
+                  commitment to high standards.
+                </p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- end About us -->
-      <div class="contentUs" id="content">
-        <div class="mask-contentUs"></div>
-        <div class="container cont-content">
-          <div class="row">
-            <div class="col-12">
-              <div class="content-title">
-                <h2>contact us</h2>
-                <p></p>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div
+              class="card card-sty"
+              style="max-width: 23rem; margin: 10px auto"
+            >
+              <div class="card-img">
+                <i class="bi bi-award"></i>
+              </div>
+              <div class="card-body card-body-sty">
+                <h3 class="card-title">Customized Consultations</h3>
+                <p class="card-text">
+                  We offer individual consultations for each client to
+                  understand their specific needs and provide tailored
+                  solutions, enhancing the overall customer experience
+                </p>
               </div>
             </div>
           </div>
-          <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-lg-6">
-              <div class="row">
-                <div class="col-12">
-                  <div class="card-content">
-                    <div class="icon-content">
-                      <i class="bi bi-geo-alt-fill"></i>
-                    </div>
-                    <div class="card-body-content">
-                      <h3 class="card-title-content">Address</h3>
-                      <p>Syria,Damascus,Baghdad Street</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="card-content">
-                    <div class="card-content">
-                      <div class="icon-content">
-                        <i class="bi bi-telephone-fill"></i>
-                      </div>
-                      <div class="card-body-content">
-                        <h3 class="card-title-content">Phone</h3>
-                        <p>+963-956-562-635</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="card-content">
-                    <div class="icon-content">
-                      <i class="bi bi-envelope-at-fill"></i>
-                    </div>
-                    <div class="card-body-content">
-                      <h3 class="card-title-content">email</h3>
-                      <p>fbmmedical5@gmail.com</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-12 col-xl-6">
-              <div
-                class="card card-map"
-                style="
-                  margin: 10px auto;
-                  width: fit-content;
-                  border: 5px solid #213555;
-                  border-radius: 25px;
-                  overflow: hidden;
-                "
-              >
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.2010146891002!2d36.31045617431798!3d33.54815324313262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e71d5baac637%3A0xc0f316dbc6167fe6!2sNew%20Qassion%20Mall!5e0!3m2!1sen!2s!4v1735324579683!5m2!1sen!2s"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- end contentUs -->
-      <div id="#product" class="product">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="title-aboutUs" style="margin: 50px 0">
-                <h2>product</h2>
-              </div>
-            </div>
-          </div>
-          <div id="product" class="row justify-content-center g-2"></div>
         </div>
       </div>
     </div>
-    <footer>
-      <div class="container">
-          <div class="box-cont">
-              <div class="box">
-                  <h3>quick links</h3>
-                  <ul>
-                      <li><a href="#home">home</a></li>
-                      <li><a href="#about">about</a></li>
-                      <li><a href="#products">products</a></li>
-                      <li> <a href="#rivew">rivew</a></li>
-                  </ul>
-              </div>
-              <div class="box">
-                  <h3>extra links</h3>
-                  <ul>
-                      <li><a href="">facebook</a></li>
-                      <li><a href="">email</a></li>
-                      <li><a href="">whatsapp</a></li>
-                  </ul>
-              </div>
-              <div class="box">
-                  <h3>locations</h3>
-                  <ul>
-                      <li><a href="#contnet">syria</a></li>
-                      <li><a href="">online</a></li>
-                  </ul>
-              </div>
-              <div class="box">
-                  <h3>quick links</h3>
-                  <ul>
-                      <li><a href="#home">+123-456-7890</a></li>
-                      <li><a href="#about">example@gamil.com</a></li>
-                      <li><a href="#products">Syria Damascus Baghdad Street</a></li>
-                      <li> <a href="#rivew"><img src="images/payment.png" alt=""></a></li>
-                  </ul>
-              </div>
-          </div>
-            <div class="title">
-                <h2>
-               writtn by<span> laith  sorki</span> designed by <span>teach-code24</span> </h2>
+    <!-- end About us -->
+    <div class="contentUs" id="content">
+      <div class="mask-contentUs"></div>
+      <div class="container cont-content">
+        <div class="row">
+          <div class="col-12">
+            <div class="content-title">
+              <h2>contact us</h2>
+              <p></p>
             </div>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-lg-6">
+            <div class="row">
+              <div class="col-12">
+                <div class="card-content">
+                  <div class="icon-content">
+                    <i class="bi bi-geo-alt-fill"></i>
+                  </div>
+                  <div class="card-body-content">
+                    <h3 class="card-title-content">Address</h3>
+                    <p>Syria,Damascus,Baghdad Street</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="card-content">
+                  <a href="https://wa.me/+963956562635">
+                  <div class="card-content">
+                    <div class="icon-content">
+                      <i class="bi bi-telephone-fill"></i>
+                    </div>
+                    <div class="card-body-content"  >
+                      <h3 class="card-title-content">Phone</h3>
+                      <p>+963-956-562-635</p>
+                    </div>
+                  </div>
+                </a>
+                </div>
+              </div>
+              <div class="col-12">
+                <a href= "mailto:fbmmedical5@gmail.com">
+                <div class="card-content">
+                  <div class="icon-content">
+                    <i class="bi bi-envelope-at-fill"></i>
+                  </div>
+                  <div class="card-body-content">
+                    <h3 class="card-title-content">email</h3>
+                    <p>fbmmedical5@gmail.com</p>
+                  </div>
+                </div>
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-xl-6">
+            <div
+              class="card card-map"
+              style="
+                margin: 10px auto;
+                width: fit-content;
+                border: 5px solid #213555;
+                border-radius: 25px;
+                overflow: hidden;
+              "
+            >
+              <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.3005731441085!2d36.300795074316426!3d33.5195700456715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e7271d9ceb3b%3A0xac81492d09f17505!2sBaghdad%20Ave%2C%20Damascus%2C%20Syria!5e0!3m2!1sen!2s!4v1736705463108!5m2!1sen!2s"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
       </div>
-  </footer>
-    <script src="./js/script.js"></script>
-    <script src="./js/bootstrap.bundle.min.js"></script>
+    </div>
+    <!-- end contentUs -->
+    <div id="#product" class="product">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title-aboutUs" style="margin: 50px 0">
+              <h2>product</h2>
+            </div>
+          </div>
+        </div>
+        <div id="product" class="row justify-content-center g-2"></div>
+      </div>
+    </div>
+    </div>
+    <footer>
+    <div class="container">
+        <div class="box-cont">
+            <div class="box">
+                <h3>quick links</h3>
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#products">products</a></li>
+                    <li> <a href="#rivew">rivew</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>extra links</h3>
+                <ul>
+                    <li><a href="">facebook</a></li>
+                    <li><a href="">email</a></li>
+                    <li><a href="">whatsapp</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>locations</h3>
+                <ul>
+                    <li><a href="#contnet">syria</a></li>
+                    <li><a href="">online</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <ul>
+                    <li><a href="#home">+123-456-7890</a></li>
+                    <li><a href="#about">example@gamil.com</a></li>
+                    <li><a href="#products">Syria Damascus Baghdad Street</a></li>
+                    <li> <a href="#rivew"><img src="images/payment.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+          <div class="title">
+              <h2>
+             writtn by<span> laith  sorki</span> designed by <span>teach-code24</span> </h2>
+          </div>
+    </div>
+    </footer>
+    </div>
+  
+  
+  
+  <script src="./js/script.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>    
   </body>
 </html
